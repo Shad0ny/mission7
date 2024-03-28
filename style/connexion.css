@@ -1,5 +1,8 @@
 body{
     background: linear-gradient(to bottom, #ffffff, #0000ff);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 p{
