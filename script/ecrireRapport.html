@@ -19,17 +19,29 @@
   <form action="ecrireRapport.php" name="ecrireRapport">
   <table>
     <tr>
-      <td><p>NUMERO :</p></td>
+      <td>NUMERO :</td>
       <td><input type="text" name="nom" size="10"></td>
     </tr>
     <tr>
-      <td><p>DATE VISITE :</p></td>
+      <td>DATE VISITE :</td>
       <td><input type="text" name="dateVisite" size="10"></td>
     </tr>
     <tr>
-      <td><p>PRACTICIEN :</p></td>
+	<td>PRATICIEN :</td>
+	<td><select name="praticien"</td></select>
+    </tr>
+    <tr>
+	<td>COEFFICIENT :</td>
+	<td><input type="text" size="6" name="coef"></td>
+    </tr>
+    <tr>
+	<td>REMPLACANT</td>
+	<td><input type="checkbox"</td>
+    </tr>
+    <tr>
+      <td>MOTIF :</td>
       <td>
-        <select name="practicien">
+        <select name="motif">
         <option value="PRD">Périodicité</option>
 	<option value="ACT">Actualisation</option>
 	<option value="REL">Relance</option>
