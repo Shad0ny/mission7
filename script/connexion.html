@@ -41,9 +41,12 @@
   <h1>Deja un compte ? Se connecter :</h1>
   <form action="connexion.php" method="get" name="connexion">
     Type de compte :<br>
-    <input type="radio" name="type" value="Visiteur"><br>
-    <input type="radio" name="type" value="Délégué régional"><br>
-    <input type="radio" name="type" value="Responsable de secteur"><br>
+    <input type="radio" id="visiteur" name="visiteur">
+    <label for="visiteur">Visiteur</label><br>
+    <input type="radio" id="dr" name="dr">
+    <label for="dr">Délégué Régional</label><br>
+    <input type="radio" id="r" name="dr">
+    <label for="dr">Délégué Régional</label><br>
     Identifiant : 
     <input type="text" name="login2"><br>
     Mot de passe :
