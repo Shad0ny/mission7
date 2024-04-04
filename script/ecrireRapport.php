@@ -2,24 +2,25 @@
 <html lang="fr">
 <head>
   <title>Rédiger un rapport</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../style/connexion.css">
 </head>
 <body>
-<a href="accueil.html"><img id="icone" scr="../img/gsb.png" alt="Icone GSB"></a>
-<link rel="stylesheet" href="../style/connexion.css">
-  <table>
+<!-- debut de l'enveloppe globale du site -->
+	<div id="haut">
+	<!-- debut en tete -->
+	<div id="header">
+	<?php
+		include("includes/hautPage.html")
+	?>
+	<!-- fin en tete -->
+	<!-- corps (partie droite) -->
+	<div id="droitecorps">
+	<h1>Rapport de visite</h1>
+	<form action="ecrireRapport.php" name="ecrireRapport">
+	<table>
     <tr>
-      <th><a href="/mission7/script/connexion.html"><button>Se connecter</button></a></th>
-      <th><a href="/mission7/script/ecrireRapport.html"><button>Rédiger un rapport</button></a></th>
-      <th><a href="/mission7/script/consulterRapport.html"><button>Consulter ses rapports</button></a></th>
-      <th><a href="/mission7/script/medicaments.html"><button>Liste des médicaments</button></a></th>
-      <th><a href="/mission7/script/praticiens.html"><button>Liste des praticiens</button></a></th>
-    </tr>
-  </table>
-  <h1>Rapport de visite</h1>
-  <form action="ecrireRapport.php" name="ecrireRapport">
-  <table>
-    <tr>
-      <td>NUMERO :</td>
+	<td>NUMERO :</td>
       <td><input type="text" name="nom" size="10"></td>
     </tr>
     <tr>
@@ -42,11 +43,11 @@
       <td>MOTIF :</td>
       <td>
         <select name="motif">
-        <option value="PRD">Périodicité</option>
-	<option value="ACT">Actualisation</option>
-	<option value="REL">Relance</option>
-	<option value="SOL">Sollicitation praticien</option>
-	<option value="AUT">Autre</option>
+			<option value="PRD">Périodicité</option>
+			<option value="ACT">Actualisation</option>
+			<option value="REL">Relance</option>
+			<option value="SOL">Sollicitation praticien</option>
+			<option value="AUT">Autre</option>
         </select>
       </td>
     </tr>
