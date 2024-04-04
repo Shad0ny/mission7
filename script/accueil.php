@@ -7,16 +7,16 @@
 <link rel="shortcut icon" href="./img/gsb.png"/>
 </head>
 <body>
-<a href="accueil.html"><img class="icone" scr="./img/gsb.png" alt="Icone GSB"></a>
-<table>
-    <tr>
-      <th><a href="/mission7/script/connexion.html"><button>Se connecter</button></a></th>
-      <th><a href="/mission7/script/ecrireRapport.html"><button>Rédiger un rapport</button></a></th>
-      <th><a href="/mission7/script/consulterRapport.html"><button>Consulter ses rapports</button></a></th>
-      <th><a href="/mission7/script/medicaments.html"><button>Liste des médicaments</button></a></th>
-      <th><a href="/mission7/script/praticiens.html"><button>Liste des praticiens</button></a></th>
-    </tr>
-  </table>
+	<!-- debut de l'enveloppe globale du site -->
+	<div id="haut">
+	<!-- debut en tete -->
+	<div id="header">
+	<?php
+		include("includes/hautPage.html")
+	?>
+	<!-- fin en tete -->
+	<!-- corps (partie droite) -->
+	<div id="droitecorps">
 <h1>GSB Gestionnaire de compte rendu-Accueil</h1>
     Bienvenue sur le site internet officiel GSB conçu pour la rédaction de rapports des visiteurs, la consultation des rapports
 et de données des médicaments à présenter aux praticiens
@@ -25,5 +25,6 @@ Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant 
 En 2009, les deux géants pharmaceutiques ont uni leurs forces pour créer un leader de ce secteur industriel. L’entité Galaxy Swiss Bourdin Europe a établi son siège administratif à Paris.<br>
 Le siège social de la multinationale est situé à Philadelphie, Pennsylvanie, aux Etats-Unis.<br>
 Le siège administratif possède différents éléments informatiques mais souhaite améliorer leur infrastructure en centralisant l’ensemble des pc et des utilisateurs du secteur pour une gestion simplifiée de l’ensemble du parc informatique et une gestion du système plus simple pour l’administrateur.<br>
+	</div>
 </body>
 </html>
