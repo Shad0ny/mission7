@@ -4,7 +4,7 @@
 <title>Accueil</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../style/connexion.css">
-<link rel="shortcut icon" href="./img/gsb.png"/>
+<link rel="shortcut icon" href="/img/gsb.png"/>
 </head>
 <body>
 	<!-- debut de l'enveloppe globale du site -->
